@@ -1,4 +1,8 @@
-# Predicting the Prices of Diamonds using SUpervised Machine Learning
+# Working on refactoring this in `notebooks/second_run`
+
+
+
+# Predicting the Prices of Diamonds using Supervised Machine Learning
 We have a dataset of over 40000 diamonds. 
 By applying some supervised Machine Learning and a little pressure, we might get these diamonds to talk. 
 
