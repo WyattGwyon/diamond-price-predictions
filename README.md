@@ -1,6 +1,6 @@
 # Second Run
 -------------
-# Check this in [notebooks/second_run]('https://github.com/WyattGwyon/diamond-price-predictions/blob/master/notebooks/second_run/1_Exploration_Cleaning_2nd.ipynb')
+# Check this in [notebooks/second_run](https://github.com/WyattGwyon/diamond-price-predictions/blob/master/notebooks/second_run/1_Exploration_Cleaning_2nd.ipynb)
 I got some better results this round. Probably because of applying some of the techniques I have learned about during the preprocessing stage. For the moment, the preprocessing is where a lot of important decisions are made that will influence the effectiveness of the models. Training the models in comparison is fairly easy and a blast! I know the devil in the details is hiding in the hyper-parameters but I am enjoying trying different models. But once preprocessing is over, it is like 'plug-n-play'.
 
 Below I will just post the coefficients, MSE, R2(coefficient of determination), and RMSE, along with the scatterplot and distribution of both y_pred and y_test. Now because we put the data through a log transformation we need to undo the log.
@@ -28,7 +28,7 @@ Below I will just post the coefficients, MSE, R2(coefficient of determination), 
 
 
 # Random Forest
-![](RandomForest_metrics_without_outliers.png)
+![](img/RandomForest_metrics_without_outliers.png)
 
 
 
