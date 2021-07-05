@@ -5,37 +5,15 @@ I got some better results this round. Probably because of applying some of the t
 
 Below I will just post the coefficients, MSE, R2(coefficient of determination), and RMSE, along with the scatterplot and distribution of both y_pred and y_test. Now because we put the data through a log transformation we need to undo the log.
 
-# Linear Regression
-
-
-
-
-
-
-
-# KNN
-
-
-
-
-
-
-
-# SVR
-
-
-
-
 
 # Random Forest
+![](img/RandomForest_Fig_without_outliers.png)
 ![](img/RandomForest_metrics_without_outliers.png)
-
-
 
 
 This is the result without even adjusting hyper-parameters. Random Forest is pretty much on point and faster than SVR. Now, this is still the training data I haven't opened the real test data of course. But my first round, through this data set I got these results from LinearRegression:
 
-
+![](img/first_run_scores.png)
 
 So, I must have learned something since then...
 
